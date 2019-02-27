@@ -41,7 +41,7 @@
     tax = ft2 + (income - ti2) * (mtr3 / 100)
   } else if (income > ti1) {
     tax = ft1 + (income - ti1) * (mtr2 / 100)
-  } else if (income > 0) {
+  } else if (income >= 0) {
     tax = income * (mtr1 / 100)
   } else {
       alert ("Income is negative")
